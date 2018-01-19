@@ -28,6 +28,9 @@ public class GameGUI extends javax.swing.JFrame {
 
         lblname = new javax.swing.JLabel();
         lblchangename = new javax.swing.JButton();
+        btnstore = new javax.swing.JButton();
+        btnexit = new javax.swing.JButton();
+        btninv = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -35,6 +38,12 @@ public class GameGUI extends javax.swing.JFrame {
         lblname.setText("Your Name's Farm");
 
         lblchangename.setText("Change name");
+
+        btnstore.setText("Store");
+
+        btnexit.setText("Exit");
+
+        btninv.setText("Inventory");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -46,6 +55,14 @@ public class GameGUI extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(lblchangename)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btninv)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnstore)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnexit, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -54,7 +71,12 @@ public class GameGUI extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblname)
                     .addComponent(lblchangename))
-                .addContainerGap(266, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 232, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnstore)
+                    .addComponent(btnexit)
+                    .addComponent(btninv))
+                .addContainerGap())
         );
 
         pack();
@@ -97,6 +119,9 @@ public class GameGUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnexit;
+    private javax.swing.JButton btninv;
+    private javax.swing.JButton btnstore;
     private javax.swing.JButton lblchangename;
     private javax.swing.JLabel lblname;
     // End of variables declaration//GEN-END:variables
