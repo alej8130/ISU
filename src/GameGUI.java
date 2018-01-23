@@ -12,10 +12,8 @@ import javax.swing.JOptionPane;
  * @author alej8130
  */
 public class GameGUI extends javax.swing.JFrame {
-
-    /**
-     * Creates new form Game
-     */
+    
+    int  balance;
     public GameGUI() {
         initComponents();
     }
@@ -386,11 +384,26 @@ public class GameGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_btnchangenameActionPerformed
 
     private void btninvActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btninvActionPerformed
-        // TODO add your handling code here:
+        Inventory inv = new Inventory(this,true);
+        inv.setVisible(true);
+        if(inv.plantseed()==true){
+            if(inv.getType()=="tree"){
+                Tree t= new Tree(inv.getName(),inv.getPlotLoc);
+            }
+            else if(inv.getType()=="crop"){
+                Crop c = new Crop(inv.getName(),inv.GetPlotLoc);
+            }
+            
+        }
     }//GEN-LAST:event_btninvActionPerformed
 
     private void btnstoreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnstoreActionPerformed
-        // TODO add your handling code here:
+        Store s = new Store(this,true,balance);
+        s.setVisible(true);
+        if(s.hadPurchase()==true){
+            seeds=s.getSeeds();//is a string that will later add it to the count of that seed in the inventory
+            balance=s.getBal();
+        }
     }//GEN-LAST:event_btnstoreActionPerformed
 
     private void btnexitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnexitActionPerformed
