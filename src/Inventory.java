@@ -40,28 +40,28 @@ public class Inventory extends javax.swing.JDialog {
         txtquan3 = new javax.swing.JTextField();
         txtquan4 = new javax.swing.JTextField();
         txtquan5 = new javax.swing.JTextField();
-        lblstatus = new javax.swing.JLabel();
-        btnsell1 = new javax.swing.JButton();
-        btnsell2 = new javax.swing.JButton();
-        btnsell3 = new javax.swing.JButton();
-        btnsell4 = new javax.swing.JButton();
-        btnsell5 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        btnplantapp = new javax.swing.JButton();
+        btnplantora = new javax.swing.JButton();
+        btnplantpear = new javax.swing.JButton();
+        btnplantplu = new javax.swing.JButton();
+        btnplantpeac = new javax.swing.JButton();
+        btnback = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
-        txtsell6 = new javax.swing.JButton();
+        btnplantwhe = new javax.swing.JButton();
         txtquan6 = new javax.swing.JTextField();
         txtquan7 = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        txtsell7 = new javax.swing.JButton();
+        btnplantcar = new javax.swing.JButton();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         txtquan8 = new javax.swing.JTextField();
         txtquan9 = new javax.swing.JTextField();
         txtquan10 = new javax.swing.JTextField();
-        txtsell8 = new javax.swing.JButton();
-        txtsell9 = new javax.swing.JButton();
-        txtsell10 = new javax.swing.JButton();
+        btnplantpot = new javax.swing.JButton();
+        btnplantpum = new javax.swing.JButton();
+        btnplantwat = new javax.swing.JButton();
+        jTextField1 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -69,73 +69,82 @@ public class Inventory extends javax.swing.JDialog {
         lbl1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl1.setText("Inventory");
 
-        jLabel1.setText("item1");
+        jLabel1.setText("Apple seeds");
 
-        txtquan1.setText("enter quan");
+        txtquan1.setEditable(false);
 
-        jLabel2.setText("item2");
+        jLabel2.setText("Orange seeds");
 
         jLabel3.setText("Balance:");
 
-        txtbal.setText("Enter bal");
+        txtbal.setEditable(false);
+        txtbal.setText("              ");
 
-        jLabel4.setText("item3");
+        jLabel4.setText("pear seeds");
 
-        jLabel5.setText("item4");
+        jLabel5.setText("plum seeds");
 
-        jLabel6.setText("item5");
+        jLabel6.setText("Peach seeds");
 
-        txtquan2.setText("enter quan");
+        txtquan2.setEditable(false);
 
-        txtquan3.setText("enter quan");
+        txtquan3.setEditable(false);
+        txtquan3.setText("                  ");
 
-        txtquan4.setText("enter quan");
+        txtquan4.setEditable(false);
+        txtquan4.setText("                  ");
 
-        txtquan5.setText("enter quan");
+        txtquan5.setEditable(false);
+        txtquan5.setText("                  ");
 
-        lblstatus.setText("enter item sold here");
+        btnplantapp.setText("Plant");
 
-        btnsell1.setText("Sell");
+        btnplantora.setText("Plant");
 
-        btnsell2.setText("Sell");
+        btnplantpear.setText("Plant");
 
-        btnsell3.setText("Sell");
+        btnplantplu.setText("Plant");
 
-        btnsell4.setText("Sell");
+        btnplantpeac.setText("Plant");
 
-        btnsell5.setText("Sell");
+        btnback.setText("Back to Farm");
 
-        jButton2.setText("Back to Farm");
+        jLabel7.setText("Wheat seeds");
 
-        jLabel7.setText("item6");
+        btnplantwhe.setText("Plant");
 
-        txtsell6.setText("Sell");
+        txtquan6.setEditable(false);
+        txtquan6.setText("                 ");
 
-        txtquan6.setText("enter quan");
+        txtquan7.setEditable(false);
+        txtquan7.setText("                 ");
 
-        txtquan7.setText("enter quan");
+        jLabel8.setText("Carrot seeds");
 
-        jLabel8.setText("item7");
+        jLabel9.setText("Potato seeds");
 
-        jLabel9.setText("item8");
+        btnplantcar.setText("Plant");
 
-        txtsell7.setText("Sell");
+        jLabel10.setText("Pumpkin seeds");
 
-        jLabel10.setText("item9");
+        jLabel11.setText("Watermelon seeds");
 
-        jLabel11.setText("item10");
+        txtquan8.setEditable(false);
+        txtquan8.setText("                 ");
 
-        txtquan8.setText("enter quan");
+        txtquan9.setEditable(false);
+        txtquan9.setText("                  ");
 
-        txtquan9.setText("enter quan");
+        txtquan10.setEditable(false);
+        txtquan10.setText("                 ");
 
-        txtquan10.setText("enter quan");
+        btnplantpot.setText("Plant");
 
-        txtsell8.setText("Sell");
+        btnplantpum.setText("Plant");
 
-        txtsell9.setText("Sell");
+        btnplantwat.setText("Plant");
 
-        txtsell10.setText("Sell");
+        jTextField1.setEditable(false);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -144,78 +153,81 @@ public class Inventory extends javax.swing.JDialog {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(131, 131, 131)
+                        .addGap(173, 173, 173)
                         .addComponent(lbl1, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(lblstatus, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE))
+                        .addComponent(jTextField1))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(jLabel2)
-                                    .addGap(18, 18, 18)
-                                    .addComponent(txtquan2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(18, 18, 18)
-                                    .addComponent(btnsell2)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jLabel8))
-                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(txtquan1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(18, 18, 18)
-                                    .addComponent(btnsell1)
-                                    .addGap(31, 31, 31)
-                                    .addComponent(jLabel7)))
                             .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(jLabel4)
                                         .addGap(18, 18, 18)
                                         .addComponent(txtquan3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(btnsell3))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel5)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(txtquan4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(btnsell4))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel6)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(txtquan5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(btnsell5)))
-                                .addGap(33, 33, 33)
+                                        .addGap(108, 108, 108))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addComponent(jLabel6)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                                .addComponent(txtquan5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                                .addComponent(btnplantpeac, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addComponent(jLabel5)
+                                                .addGap(18, 18, 18)
+                                                .addComponent(txtquan4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                                .addComponent(btnplantplu, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                        .addGap(39, 39, 39)))
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel11)
                                     .addComponent(jLabel10)
-                                    .addComponent(jLabel9))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jLabel8)
+                                        .addComponent(jLabel9)
+                                        .addComponent(jLabel7))))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                 .addGroup(layout.createSequentialGroup()
-                                    .addComponent(txtquan8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(18, 18, 18)
-                                    .addComponent(txtsell8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(txtquan6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(18, 18, 18)
-                                    .addComponent(txtsell6, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(txtquan7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(18, 18, 18)
-                                    .addComponent(txtsell7)))
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                            .addComponent(jLabel2)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
+                                        .addGroup(layout.createSequentialGroup()
+                                            .addComponent(jLabel1)
+                                            .addGap(13, 13, 13)))
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addComponent(txtquan2, javax.swing.GroupLayout.DEFAULT_SIZE, 62, Short.MAX_VALUE)
+                                        .addComponent(txtquan1))
+                                    .addGap(8, 8, 8)
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addComponent(btnplantora, javax.swing.GroupLayout.DEFAULT_SIZE, 59, Short.MAX_VALUE)
+                                        .addComponent(btnplantapp, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                .addComponent(btnplantpear, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 6, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(txtquan9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(txtquan8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(txtsell9))
+                                .addComponent(btnplantpot, javax.swing.GroupLayout.DEFAULT_SIZE, 60, Short.MAX_VALUE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(txtquan10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(txtquan6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(txtsell10)))))
+                                .addComponent(btnplantwhe, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(txtquan7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnplantcar))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(txtquan9, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
+                                    .addComponent(txtquan10))
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(btnplantpum, javax.swing.GroupLayout.DEFAULT_SIZE, 60, Short.MAX_VALUE)
+                                    .addComponent(btnplantwat, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))))
                 .addContainerGap())
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
@@ -223,7 +235,7 @@ public class Inventory extends javax.swing.JDialog {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txtbal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton2)
+                .addComponent(btnback)
                 .addGap(30, 30, 30))
         );
         layout.setVerticalGroup(
@@ -232,52 +244,52 @@ public class Inventory extends javax.swing.JDialog {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lbl1)
-                    .addComponent(lblstatus))
-                .addGap(10, 10, 10)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(7, 7, 7)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
                     .addComponent(txtquan1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnsell1)
+                    .addComponent(btnplantapp)
                     .addComponent(jLabel7)
-                    .addComponent(txtsell6)
+                    .addComponent(btnplantwhe)
                     .addComponent(txtquan6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(txtquan2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnsell2)
+                    .addComponent(btnplantora)
                     .addComponent(txtquan7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel8)
-                    .addComponent(txtsell7))
+                    .addComponent(btnplantcar))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(txtquan3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnsell3)
+                    .addComponent(btnplantpear)
                     .addComponent(jLabel9)
                     .addComponent(txtquan8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtsell8))
+                    .addComponent(btnplantpot))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
                     .addComponent(txtquan4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnsell4)
+                    .addComponent(btnplantplu)
                     .addComponent(jLabel10)
                     .addComponent(txtquan9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtsell9))
+                    .addComponent(btnplantpum))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
                     .addComponent(txtquan5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnsell5)
+                    .addComponent(btnplantpeac)
                     .addComponent(jLabel11)
                     .addComponent(txtquan10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtsell10))
+                    .addComponent(btnplantwat))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 20, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(txtbal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2))
+                    .addComponent(btnback))
                 .addContainerGap())
         );
 
@@ -327,12 +339,17 @@ public class Inventory extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnsell1;
-    private javax.swing.JButton btnsell2;
-    private javax.swing.JButton btnsell3;
-    private javax.swing.JButton btnsell4;
-    private javax.swing.JButton btnsell5;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JButton btnback;
+    private javax.swing.JButton btnplantapp;
+    private javax.swing.JButton btnplantcar;
+    private javax.swing.JButton btnplantora;
+    private javax.swing.JButton btnplantpeac;
+    private javax.swing.JButton btnplantpear;
+    private javax.swing.JButton btnplantplu;
+    private javax.swing.JButton btnplantpot;
+    private javax.swing.JButton btnplantpum;
+    private javax.swing.JButton btnplantwat;
+    private javax.swing.JButton btnplantwhe;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -344,8 +361,8 @@ public class Inventory extends javax.swing.JDialog {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JTextField jTextField1;
     private javax.swing.JLabel lbl1;
-    private javax.swing.JLabel lblstatus;
     private javax.swing.JTextField txtbal;
     private javax.swing.JTextField txtquan1;
     private javax.swing.JTextField txtquan10;
@@ -357,10 +374,5 @@ public class Inventory extends javax.swing.JDialog {
     private javax.swing.JTextField txtquan7;
     private javax.swing.JTextField txtquan8;
     private javax.swing.JTextField txtquan9;
-    private javax.swing.JButton txtsell10;
-    private javax.swing.JButton txtsell6;
-    private javax.swing.JButton txtsell7;
-    private javax.swing.JButton txtsell8;
-    private javax.swing.JButton txtsell9;
     // End of variables declaration//GEN-END:variables
 }

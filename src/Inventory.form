@@ -26,94 +26,104 @@
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="173" max="-2" attributes="0"/>
                       <Component id="lbl1" min="-2" pref="139" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="lblstatus" pref="119" max="32767" attributes="0"/>
+                      <Component id="jTextField1" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="txtquan2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="btnsell2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jLabel1" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="txtquan1" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="btnsell1" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
                                       <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Component id="txtquan3" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="btnsell3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
                                   </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="txtquan4" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="btnsell4" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="txtquan5" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="btnsell5" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="txtquan5" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="btnplantpeac" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="txtquan4" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="btnplantplu" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtquan2" pref="62" max="32767" attributes="0"/>
+                                      <Component id="txtquan1" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="btnplantora" pref="59" max="32767" attributes="0"/>
+                                      <Component id="btnplantapp" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="btnplantpear" min="-2" pref="59" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <Component id="txtquan8" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="txtsell8" max="32767" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="txtquan6" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="txtsell6" min="-2" pref="48" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="txtquan7" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="txtsell7" min="-2" max="-2" attributes="0"/>
-                              </Group>
+                      <EmptySpace pref="6" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="txtquan8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnplantpot" pref="60" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="txtquan9" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtquan6" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="txtsell9" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnplantwhe" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="txtquan10" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtquan7" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="txtsell10" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnplantcar" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="txtquan9" pref="0" max="32767" attributes="0"/>
+                                  <Component id="txtquan10" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnplantpum" pref="60" max="32767" attributes="0"/>
+                                  <Component id="btnplantwat" max="32767" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
                   </Group>
@@ -126,7 +136,7 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="txtbal" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
-              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+              <Component id="btnback" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -137,58 +147,58 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lbl1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblstatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtquan1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnsell1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnplantapp" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtsell6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnplantwhe" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtquan6" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtquan2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnsell2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnplantora" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtquan7" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtsell7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnplantcar" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtquan3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnsell3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnplantpear" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtquan8" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtsell8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnplantpot" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtquan4" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnsell4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnplantplu" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtquan9" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtsell9" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnplantpum" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtquan5" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnsell5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnplantpeac" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtquan10" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtsell10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnplantwat" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="20" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtbal" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnback" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" max="-2" attributes="0"/>
           </Group>
@@ -207,17 +217,17 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="item1"/>
+        <Property name="text" type="java.lang.String" value="Apple seeds"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtquan1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="enter quan"/>
+        <Property name="editable" type="boolean" value="false"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
-        <Property name="text" type="java.lang.String" value="item2"/>
+        <Property name="text" type="java.lang.String" value="Orange seeds"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
@@ -227,152 +237,161 @@
     </Component>
     <Component class="javax.swing.JTextField" name="txtbal">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Enter bal"/>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="              "/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
-        <Property name="text" type="java.lang.String" value="item3"/>
+        <Property name="text" type="java.lang.String" value="pear seeds"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
-        <Property name="text" type="java.lang.String" value="item4"/>
+        <Property name="text" type="java.lang.String" value="plum seeds"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
-        <Property name="text" type="java.lang.String" value="item5"/>
+        <Property name="text" type="java.lang.String" value="Peach seeds"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtquan2">
       <Properties>
-        <Property name="text" type="java.lang.String" value="enter quan"/>
+        <Property name="editable" type="boolean" value="false"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtquan3">
       <Properties>
-        <Property name="text" type="java.lang.String" value="enter quan"/>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="                  "/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtquan4">
       <Properties>
-        <Property name="text" type="java.lang.String" value="enter quan"/>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="                  "/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtquan5">
       <Properties>
-        <Property name="text" type="java.lang.String" value="enter quan"/>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="                  "/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblstatus">
+    <Component class="javax.swing.JButton" name="btnplantapp">
       <Properties>
-        <Property name="text" type="java.lang.String" value="enter item sold here"/>
+        <Property name="text" type="java.lang.String" value="Plant"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btnsell1">
+    <Component class="javax.swing.JButton" name="btnplantora">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Sell"/>
+        <Property name="text" type="java.lang.String" value="Plant"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btnsell2">
+    <Component class="javax.swing.JButton" name="btnplantpear">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Sell"/>
+        <Property name="text" type="java.lang.String" value="Plant"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btnsell3">
+    <Component class="javax.swing.JButton" name="btnplantplu">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Sell"/>
+        <Property name="text" type="java.lang.String" value="Plant"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btnsell4">
+    <Component class="javax.swing.JButton" name="btnplantpeac">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Sell"/>
+        <Property name="text" type="java.lang.String" value="Plant"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btnsell5">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Sell"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton2">
+    <Component class="javax.swing.JButton" name="btnback">
       <Properties>
         <Property name="text" type="java.lang.String" value="Back to Farm"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
-        <Property name="text" type="java.lang.String" value="item6"/>
+        <Property name="text" type="java.lang.String" value="Wheat seeds"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="txtsell6">
+    <Component class="javax.swing.JButton" name="btnplantwhe">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Sell"/>
+        <Property name="text" type="java.lang.String" value="Plant"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtquan6">
       <Properties>
-        <Property name="text" type="java.lang.String" value="enter quan"/>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="                 "/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtquan7">
       <Properties>
-        <Property name="text" type="java.lang.String" value="enter quan"/>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="                 "/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel8">
       <Properties>
-        <Property name="text" type="java.lang.String" value="item7"/>
+        <Property name="text" type="java.lang.String" value="Carrot seeds"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel9">
       <Properties>
-        <Property name="text" type="java.lang.String" value="item8"/>
+        <Property name="text" type="java.lang.String" value="Potato seeds"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="txtsell7">
+    <Component class="javax.swing.JButton" name="btnplantcar">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Sell"/>
+        <Property name="text" type="java.lang.String" value="Plant"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel10">
       <Properties>
-        <Property name="text" type="java.lang.String" value="item9"/>
+        <Property name="text" type="java.lang.String" value="Pumpkin seeds"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel11">
       <Properties>
-        <Property name="text" type="java.lang.String" value="item10"/>
+        <Property name="text" type="java.lang.String" value="Watermelon seeds"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtquan8">
       <Properties>
-        <Property name="text" type="java.lang.String" value="enter quan"/>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="                 "/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtquan9">
       <Properties>
-        <Property name="text" type="java.lang.String" value="enter quan"/>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="                  "/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtquan10">
       <Properties>
-        <Property name="text" type="java.lang.String" value="enter quan"/>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="                 "/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="txtsell8">
+    <Component class="javax.swing.JButton" name="btnplantpot">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Sell"/>
+        <Property name="text" type="java.lang.String" value="Plant"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="txtsell9">
+    <Component class="javax.swing.JButton" name="btnplantpum">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Sell"/>
+        <Property name="text" type="java.lang.String" value="Plant"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="txtsell10">
+    <Component class="javax.swing.JButton" name="btnplantwat">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Sell"/>
+        <Property name="text" type="java.lang.String" value="Plant"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
       </Properties>
     </Component>
   </SubComponents>
