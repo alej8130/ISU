@@ -102,12 +102,11 @@
                               <Component id="txtbal" min="-2" pref="43" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="320" max="-2" attributes="0"/>
                               <Component id="btnclose" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="34" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -232,6 +231,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Buy"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbuywhesActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
@@ -262,16 +264,25 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Buy"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbuycarsActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnbuypots">
       <Properties>
         <Property name="text" type="java.lang.String" value="Buy"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbuypotsActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnbuyappt">
       <Properties>
         <Property name="text" type="java.lang.String" value="Buy"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbuyapptActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
@@ -282,11 +293,17 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Buy"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbuyoratActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnbuypeat">
       <Properties>
         <Property name="text" type="java.lang.String" value="Buy"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbuypeatActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
@@ -302,6 +319,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Buy"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbuypumsActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel9">
       <Properties>
@@ -312,6 +332,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Buy"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbuyplutActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txtbal">
       <Properties>
@@ -327,6 +350,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Buy"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnpeactActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel11">
       <Properties>
@@ -337,8 +363,14 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Buy"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnwattActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txtstatus">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>

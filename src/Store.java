@@ -9,15 +9,54 @@
  * @author alej8130
  */
 public class Store extends javax.swing.JDialog {
-
-    /**
-     * Creates new form lol
-     */
-    public Store(java.awt.Frame parent, boolean modal) {
+   int balance;
+   String seeds;//use a , to separate each purchase 
+   //refer to https://stackoverflow.com/questions/3481828/how-to-split-a-string-in-java
+   //to get the code to split every comma
+   Boolean purchase;
+   
+    public Store(java.awt.Frame parent, boolean modal){
         super(parent, modal);
         initComponents();
+        purchase=false;//set purchase to false
+    }
+    public Store(java.awt.Frame parent, boolean modal, int bal) {
+        super(parent, modal);
+        initComponents();
+        balance=bal;
+        txtbal.setText("" + balance);
+        purchase=false;//set purchase to or back to false at the start of this running
+        seeds=""; //resetting the list of purchased seeds back to nothing
+        
+    }
+    
+    public int getBal(){
+        return balance;//returns balance this method will only be called if hadPurchase is true
+    }
+    
+    public boolean hadPurchase(){
+        return purchase;//returns true if something has been bought, false if not
+    }
+    
+    public String getSeeds(){
+        return seeds;//return name of seeds that are separated by a , and will be added to inv 
+        //seeds afterwards
+    }
+    
+    public  void addText(String s){
+        if(seeds.equals(""))//if nothing is in seeds add the name
+            seeds=s;
+        else//else add a comma to separate each purchase
+            seeds+="," +s;
     }
 
+    public Boolean canBuy(int price,String name){
+        if(price>balance){
+            txtstatus.setText("Can't purchase. Not enough funds");
+            return false;
+        }//returns false if price is higher than balance and says you can't purchase item
+        else return true;//returns true if balance is equal or greater than price 
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -73,6 +112,11 @@ public class Store extends javax.swing.JDialog {
         jLabel1.setText("Wheat seed cost: $3 ");
 
         btnbuywhes.setText("Buy");
+        btnbuywhes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnbuywhesActionPerformed(evt);
+            }
+        });
 
         jLabel2.setText("Balance:");
 
@@ -85,36 +129,83 @@ public class Store extends javax.swing.JDialog {
         jLabel5.setText("Apple tree cost: $15");
 
         btnbuycars.setText("Buy");
+        btnbuycars.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnbuycarsActionPerformed(evt);
+            }
+        });
 
         btnbuypots.setText("Buy");
+        btnbuypots.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnbuypotsActionPerformed(evt);
+            }
+        });
 
         btnbuyappt.setText("Buy");
+        btnbuyappt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnbuyapptActionPerformed(evt);
+            }
+        });
 
         jLabel6.setText("Orange tree cost: ");
 
         btnbuyorat.setText("Buy");
+        btnbuyorat.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnbuyoratActionPerformed(evt);
+            }
+        });
 
         btnbuypeat.setText("Buy");
+        btnbuypeat.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnbuypeatActionPerformed(evt);
+            }
+        });
 
         jLabel7.setText("Pear tree cost: ");
 
         jLabel8.setText("Pumpkin seed cost:");
 
         btnbuypums.setText("Buy");
+        btnbuypums.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnbuypumsActionPerformed(evt);
+            }
+        });
 
         jLabel9.setText("Plum tree cost:");
 
         btnbuyplut.setText("Buy");
+        btnbuyplut.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnbuyplutActionPerformed(evt);
+            }
+        });
 
         txtbal.setEditable(false);
 
         jLabel10.setText("Peach tree cost:");
 
         btnpeact.setText("Buy");
+        btnpeact.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnpeactActionPerformed(evt);
+            }
+        });
 
         jLabel11.setText("Watermelon seed cost:");
 
         btnwatt.setText("Buy");
+        btnwatt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnwattActionPerformed(evt);
+            }
+        });
+
+        txtstatus.setEditable(false);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -181,9 +272,8 @@ public class Store extends javax.swing.JDialog {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(txtbal, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(320, 320, 320)
-                                .addComponent(btnclose)
-                                .addGap(34, 34, 34)))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addComponent(btnclose)))))
+                .addContainerGap(34, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -250,6 +340,94 @@ public class Store extends javax.swing.JDialog {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnbuyapptActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbuyapptActionPerformed
+        
+        canBuy(price,"apple tree seed");
+            
+        
+       
+            
+    }//GEN-LAST:event_btnbuyapptActionPerformed
+
+    private void btnbuyoratActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbuyoratActionPerformed
+        
+        if(canBuy(0,"orange tree seed"))//change everything to this later !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            
+        
+    }//GEN-LAST:event_btnbuyoratActionPerformed
+
+    private void btnbuypeatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbuypeatActionPerformed
+        price=0;
+        if(canBuy(price)){
+            txtstatus.setText("Purchased n for " + price);
+            balance-=price;
+            purchase=true;
+        }
+    }//GEN-LAST:event_btnbuypeatActionPerformed
+
+    private void btnbuyplutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbuyplutActionPerformed
+        price=0;
+        if(canBuy(price)){
+            txtstatus.setText("Purchased n for " + price);
+            balance-=price;
+            purchase=true;
+        }
+    }//GEN-LAST:event_btnbuyplutActionPerformed
+
+    private void btnpeactActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnpeactActionPerformed
+        price=0;
+        if(canBuy(price)){
+            txtstatus.setText("Purchased n for " + price);
+            balance-=price;
+            purchase=true;
+        }
+    }//GEN-LAST:event_btnpeactActionPerformed
+
+    private void btnbuywhesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbuywhesActionPerformed
+        price=0;
+        if(canBuy(price)){
+            txtstatus.setText("Purchased n for " + price);
+            balance-=price;
+            purchase=true;
+        }
+    }//GEN-LAST:event_btnbuywhesActionPerformed
+
+    private void btnbuycarsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbuycarsActionPerformed
+        price=0;
+        if(canBuy(price)){
+            txtstatus.setText("Purchased n for " + price);
+            balance-=price;
+            purchase=true;
+        }
+    }//GEN-LAST:event_btnbuycarsActionPerformed
+
+    private void btnbuypotsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbuypotsActionPerformed
+        price=0;
+        if(canBuy(price)){
+            txtstatus.setText("Purchased n for " + price);
+            balance-=price;
+            purchase=true;
+        }
+    }//GEN-LAST:event_btnbuypotsActionPerformed
+
+    private void btnbuypumsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbuypumsActionPerformed
+        price=0;
+        if(canBuy(price)){
+            txtstatus.setText("Purchased n for " + price);
+            balance-=price;
+            purchase=true; 
+        }
+    }//GEN-LAST:event_btnbuypumsActionPerformed
+
+    private void btnwattActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnwattActionPerformed
+        price=0;
+        if(canBuy(0)){
+            txtstatus.setText("Purchased n for " + price);
+            balance-=price;
+            purchase=true;
+        }
+    }//GEN-LAST:event_btnwattActionPerformed
 
     /**
      * @param args the command line arguments
